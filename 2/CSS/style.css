@@ -1,0 +1,30 @@
+.naglowek {
+    background-color: rgb(138, 226, 226);
+    text-align: center;
+}
+.body{
+    background-color: white;
+    color:black;
+
+}
+
+.naglowek2 {
+    color: rgb(141, 12, 12);
+    background-color: hsl(180, 86%, 85%);
+    text-align: left;
+}
+
+.dane {
+    background-color: rgba(228, 222, 222, 0.801)
+}
+
+.tresc {
+    background-color: rgb(232, 242, 243);
+}
+.all {
+    background-color: rgb(94, 54, 56);
+}
+.dark{
+    background-color: lightskyblue;
+    color:rgb(6, 3, 221)
+}

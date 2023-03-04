@@ -1,0 +1,23 @@
+.tableGroup {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    overflow: auto;
+    border: solid lightskyblue;
+    border-collapse: collapse;
+    border-width: 1px;
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+    table-layout: fixed;
+}
+
+.tableGroup__caption {
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}

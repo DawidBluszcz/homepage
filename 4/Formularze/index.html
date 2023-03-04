@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator walutowy</title>
+  <link href="CSS/normalize.css" rel="stylesheet">
+  <link href="CSS/style.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+
+  <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+  <div class="container">
+    <form class="form">
+      <p>
+        <label>
+          Imię i nazwisko: <input value="Dawid Bluszcz" name="name">
+        </label>
+      </p>
+      <p>
+        <button>Wyślij!</button>
+      </p>
+      <label>
+        Imię i nazwisko: <input name="name">
+      </label>
+         
+      <label for="name">Imię i nazwisko:</label>
+      <input id="name" name="name">
+      
+      <fieldset>
+        <legend>Dane osobowe</legend>
+        <p>
+          <label>
+            Imię: <input name="firstName">
+          </label>
+        </p>
+        <p>
+          <label>
+            Nazwisko: <input name="lastName">
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Ulubieni wokaliści</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" name="Kuba Badach" checked> Kuba Badach
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="Justin …"> Justin Timberlake
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Ulubiony wokalista</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="favouriteSinger" value="badach"   
+               checked> Kuba Badach
+            </label>
+          </li>
+          <li>
+            <label>
+             <input type="radio" name="favouriteSinger" value="Timberlake"> Justin Timberlake
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <label>
+        Przelicz na:
+        <select name="PrzeliczNa" size="">
+          <option value="USD" >Dolar amerykański USD</option>
+          <option value="EUR" selected>Euro EUR</option>
+          <option value="GBP">Dolar brytyjski GBP</option>
+
+        </select>
+      </label>
+                  
+    </form>
+
+  </div>
+</body>
+
+</html>

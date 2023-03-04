@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator walutowy</title>
+  <link href="CSS/normalize.css" rel="stylesheet">
+  <link href="CSS/style.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="JS/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <form class="form js-form">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Kalkulator walut</legend>
+        <p>
+          <label class="form__label">
+            <span class="form__LabelText">Kwota PLN*:</span>
+            <input class="form__field js-amount" name="name" autofocus placeholder="wpisz kwotę w zł" type="number" required
+              step="0.01" min="0.01">
+          </label>
+        </p>
+        <p>
+        <label class="form__label">
+          <span class="form__labelText">Przelicz na:</span>
+          <select class="form__field js-currency" name="currency">
+            <option value="USD">Dolar amerykański USD</option>
+            <option value="EUR">Euro EUR</option>
+            <option value="GBP">Dolar brytyjski GBP</option>
+          </select>
+          </label>
+        </p>
+          <p class="form__paragraph">
+            <strong class="form__result js-result"></strong>
+          </p>
+      </fieldset>
+      
+    <p class="form__result"> Kwota do wypłaty: <strong class="js-result"></strong>
+    </p>
+      
+      <p>
+        <button class="form__button js-button">Przelicz</button>
+      </p>
+      <p class="form__information">Kursy pochodzą ze strony nbp.pl z tabeli nr 023/A/NBP/2023 z dnia 2023-02-02</p>
+      </label>
+    </form>
+  </div>
+</body>
+
+</html>

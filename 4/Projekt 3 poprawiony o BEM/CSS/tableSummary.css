@@ -1,0 +1,41 @@
+.tableSummary {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: auto;
+    border-collapse: collapse;    
+    overflow: auto;
+    border: solid lightskyblue;
+    border-width: 1px 0 0 0;
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+    table-layout: fixed;
+    font-weight: normal;
+}
+
+.tableSummary__caption {
+    color: black;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.tableSummary__header{
+font-weight: bold;
+}
+
+.tableSummary--left {
+    text-align: left;
+    font-weight: bold;
+}
+
+.tableSummary--right {
+    text-align: right;
+    font-weight: bold;
+}
+
+.tableSummary--bold {
+    font-size: large;
+    font-weight: bold;
+}
+
+

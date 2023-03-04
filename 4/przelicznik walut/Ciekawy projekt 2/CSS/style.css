@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images.pexels.com/photos/106152/euro-coins-currency-money-106152.jpeg);
+    background-color: #35e400c7;
+}
+
+.header {
+    max-width: 1000px;
+    background-color: #d1d1d1ea;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 25px;
+    margin: 20px auto;
+    color: #128b12;
+}
+
+.header__title {
+    font-weight: normal;
+    letter-spacing: 0.5em;
+    font-size: 40px;
+}
+
+.main {
+    max-width: 1000px;
+    background-color: #d1d1d1ea;
+    padding: 10px 100px;
+    border-radius: 25px;
+    margin: 20px auto;
+    color: #128b12;
+}
+
+.main__title {
+    font-weight: normal;
+    font-size: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main__legend {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__legend {
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #f7fdf2;
+    border: solid;
+    border-color: #128b12;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.form__fieldset {
+    margin: 0 0 30px;
+    border-radius: 10px;
+    border-color: #128b12;
+    border-width: 1px;
+    text-align: left;
+    background-color: #f7fdf2;
+}
+
+.form__label {
+    display: inline-block;
+    width: 300px;
+    padding: 0 10px;
+    margin-left: 5px;
+}
+
+.form__input {
+    background-color: #e1fdf4;
+    color: #128b12;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.form__input-readonly {
+    background-color: #7ffdd5;
+    font-weight: bold;
+}
+
+.form__button {
+    width: 400px;
+    background-color: #e1fdf4;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #128b12;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.form__button:hover {
+    background-color: #78ffd4;
+}
+
+.footer {
+    max-width: 1000px;
+    text-align: center;
+    background-color: #d1d1d1ea;
+    font-size: 18px;
+    color: #128b12;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.footer__link {
+    color: #128b12;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #bf1a2f;
+}

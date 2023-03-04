@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: white;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    border: 20px solid red;
+    outline: white 20px solid;
+    margin: auto;
+    padding: 15px;
+    max-width: 1000px;
+}
+
+.paragraph {
+    line-height: 1.5;
+}
+
+.dark {
+    color: #c2c2c2;
+    background-color: black;
+}
+
+.headermain {
+    text-align: center;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 0px 20px 10px red;
+    max-width: fit-content;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 170%;
+}
+
+.header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.subheader {
+    text-align: left;
+    padding-top: 10px;
+    color: darkcyan
+}
+
+.unorderedlist {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 30px;
+}
+.orderedlist {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.naviLink {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.naviLink:hover {
+    color: red
+}
+
+.naviLink:active {
+    color: hsl(0, 60%, 50%)
+}
+
+.table {
+    overflow-x: auto;
+}
+
+.tableSummary {
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    margin: auto;
+    overflow: auto;
+    border: solid lightskyblue;
+    border-collapse: collapse;
+    border-width: 1px 0 0 0;
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+    table-layout: fixed;
+    font-weight: normal;
+}
+
+.tableGroup {
+    background-color: white;
+    color: black;
+    margin: auto;
+    overflow: auto;
+    border: solid lightskyblue;
+    border-collapse: collapse;
+    border-width: 1px;
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+    table-layout: fixed;
+}
+
+.nav {
+    border-bottom: 1px solid lightskyblue;
+}
+
+.cup {
+    border-top: 1px solid lightskyblue;
+    border-bottom: 1px solid lightskyblue;
+    margin-top: 25px;
+}
+
+.left {
+    text-align: left;
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
+    font-weight: bold;
+}
+
+.caption {
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bold {
+    font-size: large;
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.tableFooter {
+    padding-top: 15px;
+    border: 1px solid;
+    width: 100%;
+    border: none;
+    font-weight: normal;
+}
+
+.button {
+    padding: 15px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    background-color: darkcyan;
+    color: white;
+}
+
+.topOfPage {
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-style: none;
+    text-shadow: 10px;
+}

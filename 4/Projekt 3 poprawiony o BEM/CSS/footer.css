@@ -1,0 +1,29 @@
+.footer {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footer__table {
+    padding-top: 15px;
+    border: 1px solid;
+    width: 100%;
+    border: none;
+    font-weight: normal;
+    overflow-x: auto;
+
+}
+
+.footer__table--left {
+    text-align: left;
+}
+
+.footer__table--right {
+    text-align: right;
+}
+
+.footer__topOfPage {
+    color: darkcyan;
+    overflow: auto;
+    text-decoration: none;
+   }
